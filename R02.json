@@ -1,1 +1,11 @@
-
+[
+  "hsts", 
+  "x-frame-options", 
+  "x-xss-protection", 
+  "x-content-type-options", 
+  "content-security-policy", 
+  "secure", 
+  "httponly", 
+  "set-cookie",
+  "cookie"
+]
