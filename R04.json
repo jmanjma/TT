@@ -1,1 +1,50 @@
-
+{
+  "moodle": {
+    "meta": "^moodle",
+    "header": {},
+    "directorio": [],
+    "recurso": [
+      "yui-moodlesimple-min.css"
+    ]
+  },
+  "drupal": {
+    "meta": "^Drupal",
+    "header": {
+      "x-drupal-cache": null,
+      "x-drupal-dynamic-cache": null,
+      "x-generator": "^Drupal"
+    },
+    "directorio": [],
+    "recurso": [
+      "drupal.js"
+    ]
+  },
+  "wordpress": {
+    "meta": "^WordPress",
+    "header": {},
+    "directorio": [
+      "wp-content",
+      "wp-includes",
+      "wp-json"
+    ],
+    "recurso": [
+      "wp-embed.min.js",
+      "wp-emoji-release.min.js"
+    ]
+  },
+  "joomla": {
+    "meta": "^Joomla!",
+    "header": {},
+    "directorio": [
+                    "/layouts/joomla",
+                    "/media/jui"
+                  ],
+    "recurso": []
+  },
+  "magento": {
+    "meta": "",
+    "header": {},
+    "directorio": [],
+    "recurso": []
+  }
+}
