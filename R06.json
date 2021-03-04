@@ -1,1 +1,33 @@
-
+{
+  "drupal": {
+              "README.txt": [
+                              "./sites/default/settings.php",
+                              "./CHANGELOG.txt"
+                            ]
+            },
+  "moodle": {
+              "README.txt": [
+                              "./auth/ldap/settings.php",
+                              "./admin/settings.php",
+                              "./config.php",
+                              "./behat.yml.dist",
+                              "./cmposer.json"
+                            ]
+            },
+  "wordpress": {
+                "readme.html": [
+                                 "./wp-settings.php"
+                               ]
+               },
+  "joomla": {
+              "README.txt": [
+                    "./layouts/joomla",
+                    "./media/jui",
+                    "./templates/system",
+                    "./htaccess.txt"
+                ]
+  },
+  "no_cms": [
+              ".git/HEAD"
+            ]
+}
